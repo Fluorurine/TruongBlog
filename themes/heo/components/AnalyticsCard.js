@@ -17,25 +17,25 @@ export function AnalyticsCard(props) {
         <div className='text-md flex flex-col space-y-1 justify-center px-3'>
             <div className='inline'>
                 <div className='flex justify-between'>
-                    <div>文章数:</div>
+                    <div>Số bài đăng:</div>
                     <div>{postCount}</div>
                 </div>
             </div>
             <div className='inline'>
                 <div className='flex justify-between'>
-                    <div>建站天数:</div>
-                    <div>{diffDays} 天</div>
+                    <div>Đã tồn tại:</div>
+                    <div>{diffDays} Ngày</div>
                 </div>
             </div>
             <div className='hidden busuanzi_container_page_pv'>
                 <div className='flex justify-between'>
-                    <div>访问量:</div>
+                    <div>Lượt xem:</div>
                     <div className='busuanzi_value_page_pv' />
                 </div>
             </div>
             <div className='hidden busuanzi_container_site_uv'>
                 <div className='flex justify-between'>
-                    <div>访客数:</div>
+                    <div>Khách:</div>
                     <div className='busuanzi_value_site_uv' />
                 </div>
             </div>
