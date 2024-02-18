@@ -1,5 +1,5 @@
 const CONFIG = {
-  HEO_HOME_BANNER_ENABLE: false,
+  HEO_HOME_BANNER_ENABLE: true,
 
   HEO_SITE_CREATE_TIME: '2024-02-22', // 建站日期，用于计算网站运行的第几天
 
@@ -15,16 +15,16 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: 'Blog chia sẻ',
+  HEO_HERO_TITLE_1: 'Chia sẻ',
   HEO_HERO_TITLE_2: 'Kinh nghiệm',
   HEO_HERO_TITLE_3: 'https://vmtruong.vercel.app/',
-  HEO_HERO_TITLE_4: 'Dự án được xây dựng trên',
-  HEO_HERO_TITLE_5: 'Nền tảng NotionNext4.0',
+  HEO_HERO_TITLE_4: 'Chia sẻ',
+  HEO_HERO_TITLE_5: 'Kinh nghiệm lập trình',
   HEO_HERO_TITLE_LINK: 'https://vmtruong.vercel.app/',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: 'Blog hướng dẫn', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: 'Công cụ', url: '/tag/热门文章' },
+  HEO_HERO_CATEGORY_1: { title: 'Blog hướng dẫn', url: 'https://vmtruong.vercel.app/' },
+  HEO_HERO_CATEGORY_2: { title: 'Công cụ', url: 'https://vmtruong.vercel.app/' },
   HEO_HERO_CATEGORY_3: { title: 'Website', url: '/tag/实用教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
