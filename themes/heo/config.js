@@ -1,7 +1,7 @@
 const CONFIG = {
-  HEO_HOME_BANNER_ENABLE: true,
+  HEO_HOME_BANNER_ENABLE: false,
 
-  HEO_SITE_CREATE_TIME: '2024-02-22', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2024-02-17', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
@@ -16,10 +16,10 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: 'Chia sẻ',
-  HEO_HERO_TITLE_2: 'Kinh nghiệm',
+  HEO_HERO_TITLE_2: 'Học hỏi',
   HEO_HERO_TITLE_3: 'https://vmtruong.vercel.app/',
-  HEO_HERO_TITLE_4: 'Chia sẻ',
-  HEO_HERO_TITLE_5: 'Kinh nghiệm lập trình',
+  HEO_HERO_TITLE_4: 'Tìm hiểu',
+  HEO_HERO_TITLE_5: 'Kiến thức lập trình',
   HEO_HERO_TITLE_LINK: 'https://vmtruong.vercel.app/',
 
   // 英雄区显示三个置顶分类
@@ -34,9 +34,9 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    'Xin chào! Mình là',
-    '🔍 Chia sẻ và phát triển đam mê',
-    '',
+    '🎉Chào bạn🎉',
+    'Bạn đang ở blog của mình!',
+    '👏Mình là Trường👏',
     '',
     '',
     '',
