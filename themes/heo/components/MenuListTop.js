@@ -18,9 +18,7 @@ export const MenuListTop = (props) => {
   }
 
   // 如果 开启自定义菜单，则覆盖Page生成的菜单
-  // if (siteConfig('CUSTOM_MENU')) {
-  //   links = customMenu
-  // }
+  s
 
   if (!links || links.length === 0) {
     return null
