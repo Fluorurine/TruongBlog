@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: 'Chào mừng tới blog của mình', url:'https://vmtruong.vercel.app/' },
-    { title: 'Kéo xuống để tìm hiểu thêm', url: 'https://vmtruong.vercel.app/' }
+    { title: 'if this is your frist time to this Webiste, read our short English guilde here', url: 'https://vmtruong.vercel.app/' }
   ],
 
   // 英雄区左右侧组件颠倒位置
